@@ -1,0 +1,103 @@
+.hero-title {
+  font-weight: 700;
+  color: #DFDADA;
+  text-align: center;
+  margin: 60px 0;
+}
+
+.navbar {
+  margin: auto;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #DFDADA;
+}
+
+.nav-link-arrow {
+  color: #F5F5F5;
+  font-size: 39px;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 10px 18px;
+  font-weight: 500;
+}
+
+.nav-link-arrow-2 {
+  padding: 10px 21px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.card {
+  background-color: #797979;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  border-radius: 25px;
+  gap: 15px;
+}
+
+.card-name {
+  color: #F4F4F4;
+  font-size: 14px;
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
+}
+
+.purchase-button {
+  background: none;
+  border: none;
+}
+
+.quantity-selector {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+.quantity-screen {
+  width: 70px;
+  text-align: center;
+  background-color: #363535;
+  color: #F5F5F5;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.quantity-controller {
+  color: #F4F4F4;
+  background-color: #797979;
+  border: 2px solid #F5F5F5;
+  border-radius: 50%;
+  padding: 2px 7px;
+}
+
+.card-green {
+  background-color: #5BB65E;
+  height: 171px;
+}
+
+.purchased-dollar-sign {
+  color: #EEEEEE;
+  font-size: 100px;
+}
